@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/7984206eeb.js" crossorigin="anonymous"></script>
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <a href="../index.html"><img src="../img/logo-header.png" alt="logo" class="logo"></a>
+            </div>
+              <input type="checkbox" id="check">
+              <label for="check" class="bar-btn">
+                  <i class="fa-solid fa-bars"></i>
+              </label>
+              <ul class="nav-menu">
+                 <li><a href="../index.html">Inicio</a></li>
+                 <li><a href="../pages/reglas.html">Reglas</a></li>
+                 <li><a href="../pages/ubicacion.html">Donde nos encontramos</a></li>
+                 <li><a href="../pages/contacto.html" class="active">Contactanos</a></li> 
+              </ul>
+        </nav>
+        <section>
+            <div class="formulario">
+                <form action="get">
+                    <div class="Name1" >
+                        <label for="Nombre">Nombre Completo</label>
+                        <input type="text" name="Nombre" id="Nombre" placeholder="Ingrese su nombre" required>
+                    </div>
+                    <div>
+                        <label for="Apellido">Apellidos</label>
+                        <input type="text" name="Apellido" id="Apellido" placeholder="Ingrese su Apellido" required>
+                    </div>
+                    <div>
+                        <label for="Correo">Correo de contacto</label>
+                        <input type="email" name="Correo de contacto" id="Correo" placeholder="correo@gmail.com" required>
+                    </div>         
+                    <div>
+                        <input type="submit" value="Enviar datos" class="enviar">
+                        <input type="reset" value="Eliminar datos" class="enviar">
+                    </div>
+                </form>
+            </div>
+
+        </section>
+    </header>
+</body>
+</html>
